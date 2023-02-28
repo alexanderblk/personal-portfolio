@@ -1,0 +1,255 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="assets/logo.svg" />
+
+  <title>Alexandru Dumitru | Front End Developer</title>
+  <meta name="keywords"
+    content="html, css, javascript, bootstrap, react, node.js, front-end development, github, project management" />
+  <meta name="description"
+    content="Alexandru Dumitru | Web developer with expertise in HTML, CSS, and JavaScript. I specialize in creating responsive and user-friendly websites that deliver high-quality solutions to meet clients' needs. Explore my portfolio and get in touch to learn how I can help you achieve your web development goals." />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.scss" />
+  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+
+<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <section id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title load-hidden">
+        Hi, my name is <span class="text-color-main">Alexandru Dumitru</span>
+        <br />
+        I'm a Front End Developer.
+      </h1>
+      <p class="hero-cta load-hidden">
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+  </section>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title load-hidden">About me</h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image load-hidden">
+            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px"
+              src="assets/profileImg.png" alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info load-hidden">
+            <p class="about-wrapper__info-text">
+              Hello, I'm Alexandru Dumitru, a detail-oriented front-end developer with a passion for creating engaging
+              websites. I collaborate effectively with other developers and stay up-to-date with the latest front-end
+              development technologies and techniques. With my strong understanding of web development principles, I can
+              create dynamic and engaging websites that deliver results.
+            </p>
+            <p class="about-wrapper__info-text">
+              I'm committed to delivering exceptional user experiences and producing high-quality work. If you're
+              looking
+              for a reliable and skilled front-end developer for your project, let's connect and discuss how I can help
+              bring your vision to life.
+            </p>
+            <span class="d-flex mt-3">
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
+                href="assets/Alexandru_Constantin_Dumitru_-_Front_End_Developer.pdf">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Robofriends</h3>
+              <div>
+                <p class="mb-4">
+                  Robofriends is a React-based web application that allows users to search and display a collection of
+                  robots. The app utilizes a third-party API to fetch robot data and dynamically filters the search
+                  results
+                  in real-time. Robofriends is an engaging and interactive way to explore a collection of robots on the
+                  web.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://alexanderblk.github.io/robofriends/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/alexanderblk/robofriends">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://alexanderblk.github.io/robofriends/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/robofriends.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Fridge Friday</h3>
+              <div>
+                <p class="mb-4">
+                  Fridge Friday is a group project that I worked on, which is a web app that generates recipe ideas
+                  based on
+                  the user's fridge contents. I contributed to the design, HTML/CSS, and JavaScript code. It's a fun and
+                  interactive way to discover new recipes using ingredients you already have.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://wisethee.github.io/js-fridge-friday/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/wisethee/js-fridge-friday">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://wisethee.github.io/js-fridge-friday/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/fridgefriday.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">MoneyPlanner</h3>
+              <div>
+                <p class="mb-4">
+                  MoneyPlanner is a group project that I worked on, which is a React-based web application that allows
+                  users
+                  to track their income and expenses. As a member of the project team, I designed and built the UI using
+                  HTML and CSS, as well as contributed to the React-based JavaScript code. MoneyPlanner is an
+                  easy-to-use
+                  and efficient way to manage your finances online.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://mnyplnr.netlify.app/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/LiamLJhoward/budget-calculator">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://mnyplnr.netlify.app/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/moneyplanner.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper load-hidden">
+        <p class="contact-wrapper__text">Interested in working with me?</p>
+        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
+          href="mailto:alexalexxander@gmail.com">Contact Me</a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a rel="noreferrer" href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a rel="noreferrer" href="mailto:alexalexxander@gmail.com" target="_blank">
+          <i class="fa fa-envelope fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="https://www.linkedin.com/in/alexandru-c-dumitru" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="https://github.com/alexanderblk" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+
+      <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+      <p class="footer__text">
+        © 2023 - Template developed by
+        <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank">Jacobo Martínez</a>
+      </p>
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+
+  <script defer type="module" src="index.js"></script>
+</body>
+
+</html>
